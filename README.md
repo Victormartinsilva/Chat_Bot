@@ -2,6 +2,14 @@
 
 Um chatbot inteligente para governança de dados, desenvolvido com Flask e sistema de respostas baseado em palavras-chave, com interface profissional e moderna.
 
+## 🌐 **Demo Online**
+
+**🚀 [Teste o Chatbot Aqui](https://chat-bot-7g95.onrender.com/)**
+
+[![Deploy Status](https://img.shields.io/badge/Deploy-Render-green)](https://chat-bot-7g95.onrender.com/)
+[![Python](https://img.shields.io/badge/Python-3.11+-blue)](https://python.org)
+[![Flask](https://img.shields.io/badge/Flask-2.3+-red)](https://flask.palletsprojects.com)
+
 ## 🚀 Instalação e Execução
 
 ### Pré-requisitos
@@ -54,11 +62,14 @@ Um chatbot inteligente para governança de dados, desenvolvido com Flask e siste
 2. **Configure as variáveis** de ambiente
 3. **Deploy automático** a cada push
 
-### Opção 3: Render
+### Opção 3: Render ✅ **USADO NESTE PROJETO**
 
-1. **Conecte o repositório** no Render
+1. **Conecte o repositório** no [Render](https://render.com)
 2. **Configure o build command:** `pip install -r requirements.txt`
 3. **Configure o start command:** `python app.py`
+4. **Resultado:** [https://chat-bot-7g95.onrender.com/](https://chat-bot-7g95.onrender.com/)
+
+**✅ Deploy realizado com sucesso no Render!**
 
 ## 🎯 Funcionalidades
 
@@ -147,6 +158,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## 👨‍💻 Autor
 
 **Victor Silva**
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- LinkedIn: [Seu LinkedIn](https://linkedin.com/in/seu-perfil)
+- GitHub: [@Victormartinsilva](https://github.com/Victormartinsilva)
+- Projeto: [Chat_Bot Repository](https://github.com/Victormartinsilva/Chat_Bot)
+- Demo: [https://chat-bot-7g95.onrender.com/](https://chat-bot-7g95.onrender.com/)
 
