@@ -1,4 +1,4 @@
-# Chimbinha Bot - Chatbot Profissional
+# Chat Governança - Chatbot Profissional
 
 Um chatbot inteligente para governança de dados, desenvolvido com Flask e sistema de respostas baseado em palavras-chave, com interface profissional e moderna.
 
@@ -52,7 +52,7 @@ Um chatbot inteligente para governança de dados, desenvolvido com Flask e siste
    ```bash
    git add .
    git commit -m "Deploy para Heroku"
-   heroku create seu-chimbinha-bot
+   heroku create seu-chat-governanca
    git push heroku main
    ```
 
@@ -127,13 +127,13 @@ Chat_Bot/
 ├── templates/
 │   └── index.html     # Interface web
 ├── static/
-│   └── chimbinha-avatar.png
+│   └── chat-governanca-avatar.png
 └── README.md          # Este arquivo
 ```
 
-## 📊 Sobre o Chimbinha Bot
+## 📊 Sobre o Chat Governança
 
-O Chimbinha Bot é uma solução profissional de chatbot desenvolvida para ambientes corporativos e governança de dados. Com interface moderna e design limpo, oferece uma experiência de usuário profissional e eficiente para consultas e interações empresariais.
+O Chat Governança é uma solução profissional de chatbot desenvolvida para ambientes corporativos e governança de dados. Com interface moderna e design limpo, oferece uma experiência de usuário profissional e eficiente para consultas e interações empresariais.
 
 ### 🎯 Características Técnicas
 

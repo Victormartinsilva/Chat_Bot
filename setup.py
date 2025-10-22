@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Script de configuração para o Chimbinha Bot
+Script de configuração para o Chat Governança
 """
 
 import os
@@ -20,7 +20,7 @@ def install_requirements():
 
 def create_env_file():
     """Cria arquivo .env de exemplo"""
-    env_content = """# Configurações do Chimbinha Bot
+    env_content = """# Configurações do Chat Governança
 FLASK_ENV=development
 FLASK_DEBUG=True
 PORT=5000
@@ -35,7 +35,7 @@ PORT=5000
 
 def main():
     """Função principal"""
-    print("🎸 Configurando Chimbinha Bot...")
+    print("🎸 Configurando Chat Governança...")
     print("=" * 40)
     
     # Instalar dependências

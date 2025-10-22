@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Script de Deploy para GitHub e Heroku
-echo "🚀 Iniciando deploy do Chimbinha Bot..."
+echo "🚀 Iniciando deploy do Chat Governança..."
 
 # Verificar se git está inicializado
 if [ ! -d ".git" ]; then
     echo "📦 Inicializando repositório Git..."
     git init
     git add .
-    git commit -m "Initial commit: Chimbinha Bot"
+    git commit -m "Initial commit: Chat Governança"
     echo "✅ Repositório Git inicializado!"
 fi
 
@@ -32,7 +32,7 @@ echo "2. Execute: git remote add origin https://github.com/SEU_USUARIO/Chat_Bot.
 echo "3. Execute: git push -u origin main"
 echo ""
 echo "🌐 Para deploy no Heroku:"
-echo "1. heroku create seu-chimbinha-bot"
+echo "1. heroku create seu-chat-governanca"
 echo "2. git push heroku main"
 echo ""
 echo "🎯 Para deploy no Railway:"

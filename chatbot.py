@@ -23,7 +23,7 @@ def gerar_resposta(mensagem, contexto=''):
         resposta_final = gerar_resposta_inteligente(mensagem)
 
         # Atualiza o contexto para a próxima rodada
-        novo_contexto = f"{limpar_contexto(contexto)}\nUsuário: {mensagem}\nChimbinha: {resposta_final}\n"
+        novo_contexto = f"{limpar_contexto(contexto)}\nUsuário: {mensagem}\nChat Governança: {resposta_final}\n"
 
         logging.info(f"Resposta gerada: {resposta_final}")
         return resposta_final, novo_contexto
@@ -65,7 +65,7 @@ def gerar_resposta_inteligente(mensagem):
     # Perguntas sobre o sistema
     elif any(palavra in mensagem_lower for palavra in ['como', 'how', 'funciona', 'sistema', 'bot', 'você']):
         respostas_sistema = [
-            "Sou o Chimbinha Bot, especializado em governança de dados. Posso ajudar com políticas, qualidade e compliance.",
+            "Sou o Chat Governança, especializado em governança de dados. Posso ajudar com políticas, qualidade e compliance.",
             "Funciono como assistente para questões de dados. Faça perguntas sobre governança, qualidade ou segurança.",
             "Sou um chatbot profissional para auxiliar em temas de governança de dados. Como posso ajudar?",
             "Meu objetivo é facilitar o trabalho com dados organizacionais. Qual sua necessidade?"
@@ -150,11 +150,11 @@ def gerar_resposta_fallback(mensagem):
 # Execução local para testes no terminal
 if __name__ == "__main__":
     contexto = ""
-    print("Chimbinha Bot ativo! Digite sua mensagem. (digite 'sair' para encerrar)")
+    print("Chat Governança ativo! Digite sua mensagem. (digite 'sair' para encerrar)")
     while True:
         user_msg = input("Você: ")
         if user_msg.lower().strip() in ["sair", "exit", "fim"]:
-            print("Chimbinha: Encerrando sessão. Até logo!")
+            print("Chat Governança: Encerrando sessão. Até logo!")
             break
         resposta, contexto = gerar_resposta(user_msg, contexto)
-        print(f"Chimbinha: {resposta}")
+        print(f"Chat Governança: {resposta}")
